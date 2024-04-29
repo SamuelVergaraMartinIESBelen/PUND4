@@ -6,7 +6,9 @@ package pund4;
 
 /**
  *
- * @author javie
+ * @author Samuel Vergara Martín
+ * @version 1.0
+ * @since 29-04-2024
  */
 public class PUND4 {
 

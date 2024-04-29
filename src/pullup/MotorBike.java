@@ -1,13 +1,28 @@
 package pullup;
-
+/**
+ * 
+ * @author Samuel Vergara Martín
+ * @version 1.0
+ * @since 29-04-2024
+ */
 public class MotorBike extends Vehicle {
+     /**
+      * Atributo que indica la matricula del vehiculo
+      */
 	private String matricula;
+        /**
+         * Atributo que indica el casco
+         */
 	private String casco;
 
+        /**
+         * Método de inicio
+         */
 	public void start() {
 	}
 
     /**
+     * Método de selección del atributo matrícula
      * @return the matricula
      */
     public String getMatricula() {
@@ -15,6 +30,7 @@ public class MotorBike extends Vehicle {
     }
 
     /**
+     * Método de acceso del atrinuto matrícula
      * @param matricula the matricula to set
      */
     public void setMatricula(String matricula) {
@@ -22,6 +38,7 @@ public class MotorBike extends Vehicle {
     }
 
     /**
+     * Método de selección del atributo casco
      * @return the casco
      */
     public String getCasco() {
@@ -29,6 +46,7 @@ public class MotorBike extends Vehicle {
     }
 
     /**
+     * Método de acceso del atributo casco
      * @param casco the casco to set
      */
     public void setCasco(String casco) {
